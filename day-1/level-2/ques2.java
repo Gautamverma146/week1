@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class ques1 {
+public class ques2 {
     public static void main(String[] args) {
      
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
  System.out.println("enter first number");
  int a = sc.nextInt();
   System.out.println("enter second number");

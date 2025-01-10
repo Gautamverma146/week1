@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class NumberCheck {
@@ -5,6 +6,7 @@ public class NumberCheck {
         // Step 1: Get input for the number
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
+
         int number = scanner.nextInt();
 
         // Step 2: Check if the number is positive, negative, or zero
@@ -20,3 +22,4 @@ public class NumberCheck {
         scanner.close();
     }
 }
+

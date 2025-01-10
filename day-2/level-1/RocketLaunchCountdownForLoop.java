@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class RocketLaunchCountdownForLoop {
@@ -19,3 +20,4 @@ public class RocketLaunchCountdownForLoop {
         scanner.close();
     }
 }
+

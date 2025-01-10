@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ques1 {
+public class DivisibleBy5 {
     public static void main(String[] args) {
         // Create a Scanner object for user input
         Scanner scanner = new Scanner(System.in);

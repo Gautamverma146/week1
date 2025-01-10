@@ -22,8 +22,7 @@ public class SumUntilZeroOrNegativeWhileLoop {
             // Step 5: Add the number to the total
             total += number;
         }
-
-        // Step 6: Display the total sum
+		       // Step 6: Display the total sum
         System.out.println("The total sum is: " + total);
 
         

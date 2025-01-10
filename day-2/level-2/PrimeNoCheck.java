@@ -1,14 +1,13 @@
 import java.util.Scanner;
-
-public class ques4 {
+ class PrimeNoCheck {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         // Taking input from the user
         System.out.print("Enter a number to check if it's a prime number: ");
         int number = scanner.nextInt();
-
-        boolean isPrime = true;  // Initialize as true
+// Initialize as true
+        boolean isPrime = true;  
 
         // Prime number check
         if (number <= 1) {

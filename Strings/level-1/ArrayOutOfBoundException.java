@@ -10,13 +10,13 @@ public class ArrayOutOfBoundException {
         }
         catch (ArrayIndexOutOfBoundsException e){
             System.out.println("Array Index Out of Bound exception occurred");
-            return "siddhu";
+            return "Gautam";
         }
     }
     public static void main(String[] args){
         // Created a scanner for inputs
         Scanner sc = new Scanner(System.in);
-        String[] arr = {"nitish","Singh"};
+        String[] arr = {"Gautam","Verma"};
 //        System.out.println("generate Array Index out of bound exception");
 //        generateArrayOutOfBoundException(arr);
         System.out.println("Handling Array index out of bound exception using tru and catch");

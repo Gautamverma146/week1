@@ -21,7 +21,12 @@ public class LowerCase {
         String s = scanner.nextLine().trim();
 
         String lowerString1 = toLower(s);
+		//display lower case string
+		
+		
         String  lowerString2 = s.toLowerCase();
+		
+		
         if(lowerString1.equals(lowerString2))
             System.out.println("Both are equal ");
         else

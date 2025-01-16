@@ -21,10 +21,10 @@ public  class illegalArgumentsString {
 
         String s = sc.next().trim();
 
-//        System.out.println("Generating the Illegal argument exception");
-//        generateIllegalArgumentException(s);
-        System.out.println("Handling the exception using the try and catch ");
-        handleIllegalArgumentException(s);
+      System.out.println("Generating the Illegal argument exception");
+      generateIllegalArgumentException(s);
+       // System.out.println("Handling the exception using the try and catch ");
+        //handleIllegalArgumentException(s);
     }
 }
 

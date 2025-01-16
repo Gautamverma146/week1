@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class numberFormatException {
+public class NumberFormatException {
     public static int generateNumberFormatException(String s){
         return Integer.parseInt(s);
     }

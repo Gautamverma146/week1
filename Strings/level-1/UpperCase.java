@@ -1,5 +1,5 @@
 import java.util.*;
-public class upperCase {
+public class UpperCase {
 
 public static String toUpper(String s) {
     String temp = "";
@@ -22,14 +22,18 @@ public static void main(String[]args) {
     String s = scanner.nextLine().trim();
 
     String upperString1 = toUpper(s);
-    String uppperString2 = s.toUpperCase();
-    if (upperString1.equals(uppperString2))
+	//Built in method for uppercase conversion
+    String upperString2 = s.toUpperCase();
+	
+	System.out.println(upperString1);
+	System.out.println(upperString2);
+    if (upperString1.equals(upperString2))
         System.out.println("Both are equal ");
-    else
+    else{
         System.out.println("Both are Different");
-    System.out.println("The Strings are " + upperString1 + " and " + uppperString2);
+    System.out.println("The Strings are " + upperString1 + " and " + upperString2);
 
-    scanner.close();
+	}    scanner.close();
 
 }
         }
